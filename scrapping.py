@@ -57,7 +57,7 @@ for url in website_list:
                 html_text = text_from_html(soup)
                 print_titles_and_alts(soup)
                 print(print_top_words(html_text))
-        print("-"*15)
+        print("-"*19)
     except:
         pass
 
